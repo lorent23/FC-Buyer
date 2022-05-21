@@ -1,0 +1,37 @@
+@media only screen and (min-device-width: 360px) and (max-device-width: 1000px) and (orientation:portrait) {
+    .main-container{
+        padding-top: 200px;
+    }
+    .ham-menu {
+        width: 100vw;
+    }
+    .ham-menu > ul > li {
+        font-size: 3rem;
+        white-space: nowrap;
+        letter-spacing: 0.15em;
+        cursor: pointer;
+        color: rgb(97, 97, 97);
+      }
+    .button-portfolio{
+        padding-top: 12px;
+        padding-bottom: 30px;
+    }
+    #portfolio{
+        padding-bottom: 40px;
+    }
+    .cards .container {
+        padding: 10px;
+      }
+      #right-img img{
+        padding-left: 0;
+        padding-right: 0;
+        width: 368px;
+        height: auto;
+        overflow: hidden;
+      }      
+      .about-us p {
+          display: flex;
+          flex-direction: justify;
+          text-align: center;
+      }
+  }
