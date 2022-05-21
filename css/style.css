@@ -47,7 +47,7 @@ body {
     background-position: center center;
     animation: shrink 10s infinite alternate;
 }
-@keyframes shrink {
+/*@keyframes shrink {
   0% {
     background-size: 110% 110%;
   }
@@ -55,6 +55,7 @@ body {
     background-size: 100% 100%;
   }
 }
+*/
 
 .main-text h1 {
     display: flex;
